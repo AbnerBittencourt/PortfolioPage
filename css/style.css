@@ -496,7 +496,7 @@ section#projects {
     .toggle {
         width: 40px;
         height: 40px;
-        background: url('../img/menu1.png');
+        background: url('../img/menu-01.png');
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
@@ -504,7 +504,7 @@ section#projects {
     }
 
     .toggle.active {
-        background: url('../img/close1.png');
+        background: url('../img/close-01.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
