@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abner Bittencourt - Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header><!--Navbar-->
+      <a href="#principal" class="logo">Portfólio</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+          <li><a href="#principal" onclick="toggleMenu()";>Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </header><!--/End Navbar-->
+    <section id="principal" class="banner"><!--Principal-->
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Abner Bittencourt Rocha</span></h2>
+            <h3>I'm a Web Developer Junior</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section><!--/End Principal-->
+    <section id="about"><!--About-->
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Web Developer Junior.</h3>
+                <p> I'm graduating in the Computer Engineering course, in the 7th semester. I have basic command of English, however, in the process of studying the language for further improvement. I'm currently studying web development using HTML, Css, JS and frameworks such as Bootstrap and Angular, looking to increasingly improve myself in these technologies for front-end, but I have also been studying back-end with PHP 7, NodeJs and MySQL.<br>
+                    In this time of course I have had experiences with teamwork due to projects developed during the course in partnership with students from both my semester and semesters ahead of mine. What made me improve soft skills in relation to resilience, empathy, collaboration and communication.<br>      
+                </p>
+            </div>
+            <div class="w50">
+                <img src="img/img.jpg" class="img">
+            </div>
+        </div>
+    </section><!--/End About-->
+    <section id="projects"><!--Projects-->
+        <div class="container">
+
+            <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Dev Jobs</h3>
+                    <p>Web application developed to simulate a vacancy website for programmers.
+                    </p>
+                    <a href="https://github.com/AbnerBittencourt/DevJobs">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Music Quiz</h3>
+                    <p>Web application built with HTML, CSS and JavaScript, the proposal is a musical quiz with dynamic 
+                        interactions.
+                    </p>
+                    <a href="https://github.com/AbnerBittencourt/musicQuiz">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Hash Game</h3>
+                    <p>Application developed for the purpose of practicing Javascript interactions with the DOM. 
+                    </p>
+                    <a href="https://github.com/AbnerBittencourt/hashGame">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/End Projects-->
+    <section id="contacts"><!--Contacts-->
+        <div class="heading">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Vitória da Conquista, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>E-mail</h3>
+                            <p>abnerrocha00@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="links">
+                <ul class="links">
+                    <li><a href="https://www.instagram.com/abner.br/?hl=pt-br"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/abner-bittencourt-rocha/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/AbnerBittencourt"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--/End Contacts-->
+    <footer id="footer">
+        <p>Copyright &copy; 2021 Abner Bittencourt. All Right Reserved.</p>
+    </footer>
+</body>
+</html>
