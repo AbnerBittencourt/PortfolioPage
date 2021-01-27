@@ -33,7 +33,7 @@
         <div class="content">
             <div class="contentBx w50">
                 <h3>I'm a Web Developer Junior.</h3>
-                <p> I'm graduating in the Computer Engineering course, in the 7th semester. I have basic command of English, however, in the process of studying the language for further improvement. I'm currently studying web development using HTML, Css, JS and frameworks such as Bootstrap and Angular, looking to increasingly improve myself in these technologies for front-end, but I have also been studying back-end with PHP 7, NodeJs and MySQL.<br>
+                <p> I'm graduating in the Computer Engineering course, in the 7th semester.<br> I have basic command of English, however, in the process of studying the language for further improvement. I'm currently studying web development using HTML, Css, JS and frameworks such as Bootstrap and Angular, looking to increasingly improve myself in these technologies for front-end, but I have also been studying back-end with PHP 7, NodeJs and MySQL.<br>
                     In this time of course I have had experiences with teamwork due to projects developed during the course in partnership with students from both my semester and semesters ahead of mine. What made me improve soft skills in relation to resilience, empathy, collaboration and communication.<br>      
                 </p>
             </div>

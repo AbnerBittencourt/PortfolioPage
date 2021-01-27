@@ -29,7 +29,7 @@ header.sticky {
 }
 
 header .logo {
-    color: #272727c7;
+    color: #ffffffc7;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -56,8 +56,13 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #272727c7;
+    color: #ffffffc7;
     text-decoration: none;
+}
+
+header ul li a:hover{
+    background-color: #222222;
+    border-radius: 12px;
 }
 
 header.sticky ul li a {
@@ -72,7 +77,7 @@ section#principal {
 #principal.banner {
     position: relative;
     min-height: 100vh;
-    background: url('../img/banner-01.jpg');
+    background: url('../img/banner-02.jpg');
     background-size: cover;
     background-position: right;
     display: flex;
@@ -82,7 +87,7 @@ section#principal {
 
 #principal.banner h2 {
     font-size: 3em;
-    color: #272727c7;
+    color: #ffffffc7;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -94,7 +99,7 @@ section#principal {
 
 #principal.banner h3 {
     font-size: 3em;
-    color: #272727c7;
+    color: #ffffffc7;
     font-weight: 500;
 }
 
@@ -115,13 +120,14 @@ section#principal {
 /* about*/
 #about {
     padding: 100px;
+    background-color: #f0f0f0;
 }
 
 #about .heading {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    color: #111111;
+    color: #000000;
 }
 #about .heading h2 {
     font-weight: 600;
@@ -136,7 +142,13 @@ section#principal {
     padding-right: 30px;
 }
 
+#about .contentBx p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
 #about .contentBx h3 {
+    color: rgb(0, 0, 0);
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -488,7 +500,7 @@ section#projects {
     }
 
     header ul li a{
-        color: #111111;
+        color: #000000;
         font-size: 24px;
         margin: 10px;
     }
@@ -525,13 +537,17 @@ section#projects {
     }
 
     #principal.banner h2 {
-        color: #000000;
+        color: #ffffff;
         font-size: 1.2em;
     }
 
+    #principal.banner h2 span {
+        font-size: 1.8em;
+    }
+
     #principal.banner h3 {
-        color: #000000;
-        font-size: 1em;
+        color: #ffffff;
+        font-size: 1.2em;
     }
 
     #principal .btn {
@@ -592,6 +608,9 @@ section#projects {
         padding: 20px 50px;
     }
 
+    header .logo {
+        font-size: 18px;
+    }
     #principal .banner {
         padding: 150px 20px 100px;
     }
