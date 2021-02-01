@@ -28,6 +28,10 @@ header.sticky {
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
+header.sticky a:hover {
+    background: #fff;
+}
+
 header .logo {
     color: #ffffffc7;
     font-size: 24px;
