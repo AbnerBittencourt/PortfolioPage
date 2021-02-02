@@ -20,7 +20,7 @@
           <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
       </ul>
     </header><!--/End Navbar-->
-    <section id="principal" class="banner"><!--Principal-->
+    <section id="principal" class="banner"><!--Principal--> 
         <div class="textBx">
             <h2>Hello, I'm<br><span>Abner Bittencourt Rocha</span></h2>
             <a href="#about" class="btn">About Me</a>
@@ -155,18 +155,35 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="links">
-                <ul class="links">
-                    <li><a href="https://www.instagram.com/abner.br/?hl=pt-br" target="__blank"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/abner-bittencourt-rocha/" target="__blank"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/AbnerBittencourt" target="__blank"><i class="fab fa-github"></i></a>
-                    </li>
-                </ul>
+                <div id="links">
+                    <ul class="links">
+                        <li>
+                            <a href="https://www.instagram.com/abner.br/?hl=pt-br" target="__blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/abner-bittencourt-rocha/" target="__blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AbnerBittencourt" target="__blank"><i class="fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+                <!--Update the URL for thank you page on form submit -->
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                    onload="if(submitted) {window.location='//portfolio.abnerbittencourt.vercel.app';}">
+                </iframe> 
+    
+
+              <div class="formBx">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf0sUJf5hDQuenaVOFhfFY8ntpH6KYZ7nX0NWkPhw1FTzbanQ/formResponse" 
+                      method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full name" id="name" required name="entry.2005620554">
+                    <input type="email" placeholder="E-mail" id="email" required name="entry.1045781291">
+                    <textarea placeholder="Your Message" required name="entry.839337160"> </textarea>
+                    <input type="submit">
+                </form>
             </div>
         </div>
     </section><!--/End Contacts-->

@@ -368,20 +368,50 @@ section#projects {
     padding: 15px 100px;
 }
 
-#contacts .heading {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #111111;
+#contacts .formBx {
+    min-width: 60%;
 }
 
-#contacts .content {
+#contacts .formBx form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-#contacts .box{
-    padding: 3px;
+#contacts .formBx form h3,
+#contacts .contactInfo h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contacts .formBx form input,
+#contacts .formBx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+
+#contacts .formBx form textarea {
+    min-height: 200px;
+}
+
+#contacts .formBx form input::placeholder,
+#contacts .formBx form textarea::placeholder {
+    color: #999999;
+}
+
+#contacts .formBx form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #contacts .contactInfo {
@@ -394,7 +424,7 @@ section#projects {
 
 #contacts .contactInfoBox .box {
     position: relative;
-    padding: 5px 0;
+    padding: 20px 0;
     display: flex;
 }
 
@@ -422,6 +452,7 @@ section#projects {
     color: #2196f3;
     margin-bottom: 0;
 }
+
 
 #links {
     display: flex;
@@ -477,6 +508,93 @@ section#projects {
 }
 
 /* Responsive */
+@media (min-width: 2000px) {
+
+    #about .heading h2 {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    #about .contentBx h3 {
+        color: rgb(0, 0, 0);
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #about .contentBx p {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        font-size: 30px;
+    }
+
+    #about img {
+        max-width: 90%;
+    }
+
+    #contacts .heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #111111;
+    }
+
+    #contacts .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #contacts .box{
+        padding: 3px;
+    }
+
+    #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 110px;
+    }
+    #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 22%;
+        margin-top: 110px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1998px) {
+
+    #principal.banner h2 span {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    #contacts .heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #111111;
+    }
+
+    #contacts .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #contacts .box{
+        padding: 3px;
+    }
+
+    #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 110px;
+    }
+  
+}
+
 @media (max-width: 991.98px) {
     header,
     header.sticky {
@@ -594,9 +712,17 @@ section#projects {
         opacity: 1;
         transform: translateY(-70px);
     }
+
+    /* Contacts */
+    #contacts .contactInfo {
+        margin: 20px 0;
+    }
+
     /* Links */
     #links {
         width: 15%;
+        padding-left: 100px;
+        font-size: 14px;
     }
 
     #links ul li a .fa-instagram, 
@@ -637,10 +763,6 @@ section#projects {
         padding: 23px;
     }
 
-    #contacts .heading {
-        font-size: 15px;
-    }
-
     #contacts {
         padding: 15px 20px;
     }
@@ -654,15 +776,13 @@ section#projects {
     }
 
     #links {
-        width: 55%;
-        padding-left:20px;
         margin-right: 5px;
     }
 
     #links ul li a .fa-instagram, 
     #links ul li a .fa-linkedin,
     #links ul li a .fa-github {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     #footer p {
