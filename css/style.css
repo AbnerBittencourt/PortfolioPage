@@ -156,7 +156,24 @@ section#principal {
     font-size: 24px;
     margin-bottom: 10px;
 }
+#about .content a {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 8px 15px;
+    background: rgb(156, 156, 156);
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s;
+}
 
+#about .content a:hover {
+    transform: translateY(5px);
+    color: #fff;
+    background:#0077ff;
+}
 #about .w50 {
     min-width: 50%;
 }
@@ -526,7 +543,7 @@ section#projects {
         text-align: justify;
         font-size: 30px;
     }
-
+   
     #about img {
         max-width: 90%;
     }
@@ -684,7 +701,6 @@ section#projects {
 
     #about .contentBx h3 {
         font-size: 20px;
-
     }
 
     #about .contentBx p {
@@ -695,6 +711,19 @@ section#projects {
     #about .content {
         flex-direction: column;
     }
+
+    #about .content a {
+        margin-top: -10px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        padding: 6px 10px;
+        font-weight: 500;     
+    }
+
+    #about .content .contentBx:nth-child(4){
+        float: right;
+    }
+
     /*Projects */
     #projects .container .card {
         width: 250px;
