@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abner Bittencourt - Portfólio</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
     <script src="js/script.js" defer></script>
 </head>
+
 <body>
-    <header><!--Navbar-->
-      <a href="#principal" class="logo">Portfólio</a>
-      <div class="toggle" onclick="toggleMenu();"></div>
-      <ul class="menu">
-          <li><a href="#principal" onclick="toggleMenu()";>Home</a></li>
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
-      </ul>
-    </header><!--/End Navbar-->
-    <section id="principal" class="banner"><!--Principal--> 
+    <header>
+        <!--Navbar-->
+        <a href="#principal" class="logo">Portfólio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#principal" onclick="toggleMenu()" ;>Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+    <!--/End Navbar-->
+    <section id="principal" class="banner">
+        <!--Principal-->
         <div class="textBx">
             <h2>Hello, I'm<br><span>Abner Bittencourt Rocha</span></h2>
             <a href="#about" class="btn">About Me</a>
         </div>
-    </section><!--/End Principal-->
-    <section id="about"><!--About-->
+    </section>
+    <!--/End Principal-->
+    <section id="about">
+        <!--About-->
         <div class="heading">
             <h2>About Me</h2>
         </div>
         <div class="content">
             <div class="contentBx w50">
                 <h3>I'm a Web Developer Junior.</h3>
-                <p> 1+ year of experience in front end development, my passion is deliver the best solutions and more value to each software and project I participate. I'm a continuous learning professional, looking to improve my skills on what's new in software development. Always over delivering results and bring the best experience for customers and users. <br>
+                <p> 1+ year of experience in web end development, my passion is deliver the best solutions and more
+                    value to each software and project I participate. I'm a continuous learning professional, looking to
+                    improve my skills on what's new in software development. Always over delivering results and bring
+                    the best experience for customers and users. <br>
                     <br>
-                    Mais de 1 ano de experiência em desenvolvimento front end, minha paixão é entregar as melhores soluções e mais valor para cada software e projeto do qual participo. 
-                    Sou um profissional de aprendizado contínuo, buscando aprimorar minhas habilidades no que há de novo no desenvolvimento de software. Sempre entregando resultados e trazendo a melhor experiência para clientes e usuários. <br>
+                    Mais de 1 ano de experiência em desenvolvimento web, minha paixão é entregar as melhores soluções e
+                    mais valor para cada software e projeto do qual participo.
+                    Sou um profissional de aprendizado contínuo, buscando aprimorar minhas habilidades no que há de novo
+                    no desenvolvimento de software. Sempre entregando resultados e trazendo a melhor experiência para
+                    clientes e usuários. <br>
                 </p>
-                <a href="https://drive.google.com/drive/folders/1dO0Rv2O-jyYhEn9oiZPY8XOL7l_wPX3H?usp=sharing" target="__blank">Certifications</a>
+                <a href="https://drive.google.com/drive/folders/1dO0Rv2O-jyYhEn9oiZPY8XOL7l_wPX3H?usp=sharing"
+                    target="__blank">Certifications</a>
             </div>
             <div class="w50">
                 <img src="img/img.jpg" class="img">
             </div>
         </div>
-    </section><!--/End About-->
-    <section id="projects"><!--Projects-->
+    </section>
+    <!--/End About-->
+    <section id="projects">
+        <!--Projects-->
         <div class="container">
 
-            <div class="card">
+            <!-- <div class="card">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -61,6 +79,22 @@
                     <a href="https://github.com/AbnerBittencourt/DevJobs" target="__blank">Read More</a>
                 </div>
             </div>
+ -->
+            <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                    <h2>01</h2>
+                    <h3 style="font-size: 1.6em">CRUD for<br>E-commerce</h3>
+                    <p>
+                        This project and basically consists of a register of products with the possibility of creating,
+                        reading, updating and deleting (CRUD).
+                    </p>
+                    <a href="https://github.com/AbnerBittencourt/CRUD_E-commerce" target="__blank">Read More</a>
+                </div>
+            </div>
 
             <div class="card">
                 <span></span>
@@ -69,11 +103,11 @@
                 <span></span>
                 <div class="content">
                     <h2>02</h2>
-                    <h3>Music Quiz</h3>
-                    <p>Web application built with HTML, CSS and JavaScript, the proposal is a musical quiz with dynamic 
-                        interactions.
+                    <h3>sysFinans</h3>
+                    <p>This project was built with Angular 11, and simulates a finance system with registration of
+                        entries and categories.
                     </p>
-                    <a href="https://music-quiz.vercel.app" target="__blank">Read More</a>
+                    <a href="https://github.com/AbnerBittencourt/sysFinans" target="__blank">Read More</a>
                 </div>
             </div>
 
@@ -84,12 +118,14 @@
                 <span></span>
                 <div class="content">
                     <h2>03</h2>
-                    <h3>Hash Game</h3>
-                    <p>Application developed for the purpose of practicing Javascript interactions with the DOM. 
+                    <h3>Bible Quiz</h3>
+                    <p>Web application developed with ReactJS and NextJS and is in production environment The code for
+                        this project is on github.
                     </p>
-                    <a href="https://hash-game.vercel.app" target="__blank">Read More</a>
+                    <a href="https://quiz-biblico.vercel.app" target="__blank">Read More</a>
                 </div>
             </div>
+
             <div class="card">
                 <span></span>
                 <span></span>
@@ -97,12 +133,13 @@
                 <span></span>
                 <div class="content">
                     <h2>04</h2>
-                    <h3>Bible Quiz</h3>
-                    <p>Web application developed during Alura's React V2 Immersion, where knowledge related to ReactJS and NextJS was discussed. 
+                    <h3>PraiseSystem</h3>
+                    <p>API developed for a system of praise among company colleagues.
                     </p>
-                    <a href="https://quiz-biblico.vercel.app" target="__blank">Read More</a>
+                    <a href="https://github.com/AbnerBittencourt/API_PraiseSystem" target="__blank">Read More</a>
                 </div>
             </div>
+
             <div class="card">
                 <span></span>
                 <span></span>
@@ -110,29 +147,36 @@
                 <span></span>
                 <div class="content">
                     <h2>05</h2>
-                    <h3 style="font-size: 1.6em" >CRUD for<br>E-commerce</h3>
-                    <p>
-                        This project and basically consists of a register of products with the possibility of creating, reading, updating and deleting (CRUD).
+                    <h3>E-commerce</h3>
+                    <p>API developed to perform the main actions of an e-comemrce, such as login, editing user profile,
+                        shopping, etc.
                     </p>
-                    <a href="https://github.com/AbnerBittencourt/CRUD_E-commerce" target="__blank">Read More</a>
+                    <a href="https://github.com/AbnerBittencourt/API_E-commerce" target="__blank">Read More</a>
                 </div>
             </div>
+
             <div class="card">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <div class="content">
-                    <h2>06</h2>
-                    <h3>sysFinans</h3>
-                    <p>This project was built with Angular 11, and simulates a finance system with registration of entries and categories.
+                    <h2>05</h2>
+                    <h3>E-commerce</h3>
+                    <p>API developed to perform the main actions of a car rental company, such as registration and
+                        listing of vehicles.
                     </p>
-                    <a href="https://github.com/AbnerBittencourt/sysFinans" target="__blank">Read More</a>
+                    <a href="https://github.com/AbnerBittencourt/API_RentalCompany" target="__blank">Read More</a>
                 </div>
             </div>
+
+
+
         </div>
-    </section><!--/End Projects-->
-    <section id="contacts"><!--Contacts-->
+    </section>
+    <!--/End Projects-->
+    <section id="contacts">
+        <!--Contacts-->
         <div class="heading">
             <h2>Contact Me</h2>
         </div>
@@ -162,26 +206,30 @@
                 <div id="links">
                     <ul class="links">
                         <li>
-                            <a href="https://www.instagram.com/abner.br/?hl=pt-br" target="__blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/abner.br/?hl=pt-br" target="__blank"><i
+                                    class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/abner-bittencourt-rocha/" target="__blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/abner-bittencourt-rocha/" target="__blank"><i
+                                    class="fab fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/AbnerBittencourt" target="__blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/AbnerBittencourt" target="__blank"><i
+                                    class="fab fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
-            </div>  
-                <!--Update the URL for thank you page on form submit -->
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-                    onload="if(submitted) {window.location='//portfolio.abnerbittencourt.vercel.app'}">
-                </iframe> 
-    
+            </div>
+            <!--Update the URL for thank you page on form submit -->
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                onload="if(submitted) {window.location='//portfolio.abnerbittencourt.vercel.app'}">
+            </iframe>
 
-              <div class="formBx">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf0sUJf5hDQuenaVOFhfFY8ntpH6KYZ7nX0NWkPhw1FTzbanQ/formResponse" 
-                      method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+
+            <div class="formBx">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf0sUJf5hDQuenaVOFhfFY8ntpH6KYZ7nX0NWkPhw1FTzbanQ/formResponse"
+                    method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
                     <h3>Message Me</h3>
                     <input type="text" placeholder="Full name" id="name" required name="entry.2005620554">
                     <input type="email" placeholder="E-mail" id="email" required name="entry.1045781291">
@@ -190,9 +238,11 @@
                 </form>
             </div>
         </div>
-    </section><!--/End Contacts-->
+    </section>
+    <!--/End Contacts-->
     <footer id="footer">
         <p>Copyright &copy; 2021 Abner Bittencourt. All Right Reserved.</p>
     </footer>
 </body>
+
 </html>
